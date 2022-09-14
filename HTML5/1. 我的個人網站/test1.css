@@ -1,0 +1,62 @@
+h1 {
+    color: red;
+    background-color: #A3A5FF;
+    text-align: center;
+}
+#a1{
+    color: red;
+}
+#iphone{
+    font-family: Comic Sans MS;
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+}
+.a23{
+    color: blue;
+}
+.bold{
+    font-weight: bold;
+}
+.hid{
+    display: none;
+}
+li{
+    color: green;
+}
+body{
+    /* background-image: url("koding.png");
+    background-repeat: repeat-x;
+    background-position: right top;
+    margin-right: 200px;
+    background-size: 100px;
+    background-attachment: fixed; */
+    padding: 30px;
+}
+#first{
+    padding: 30px;
+    margin: 50px;
+    border: dotted 5px #1fffa2;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+    color: #000000;
+}
+tr:nth-child(odd){
+    background-color: #000000;
+}
+tr:nth-child(1){
+    background-color: #1f9cff;
+}
+th{
+    /* background-color: #1f9cff; */
+    color: white;
+}
+th, td{
+    text-align: center;
+    padding: 15px;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+}

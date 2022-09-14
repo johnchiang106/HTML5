@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    padding: 60px;
+}
+img{
+    height: 200px;
+}
+input{
+    width: 50vw;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+button{
+    width: 50vw;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    border: 0px;
+    border-radius: 5px;
+    
+    color: #fff;
+    background-color: red;
+}

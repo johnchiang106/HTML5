@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Test Blog</title>
+        <link rel="stylesheet" type="text/css" href="test1.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>嗨嗨</h1>
+        <h3>about me</h3>
+        <hr>
+        <div id='first'>
+            <p class='hid'>
+                亞的記師人
+            </p>
+            <p class='hid'>
+                趣合提具明地車下不飛隨自文……學顯道電，教市人演包表是下可起資
+                陽好事學了電性座其快子自年手管影開！<br>表人也取害不無南美知有玩
+                中話認治溫時道不進天的，非母以，素母劇算未：她對張讓做不難即
+                影部不石已將會員類論學實好天後跟那沒會外一片，他母從才自康影
+                質：一是房次。
+            </p>
+            <p class='hid'>
+                資何有創的興人。假園工方了此看，後層收。於現媽斷天內火由中價
+                子機，跟怎動電懷然是只？是文市：陽子健們那間事語線背可神充印
+                一拉觀地快水主！笑來或舞跑：覺刻方位故來施他。
+            </p>
+            <p id='iphone' class='hid'>
+                phone:0912345678
+            </p>
+            <button id='b1'>顯示/隱藏</button>
+        </div>
+        <img height="100px" src='https://sb.koding.school/project_assets/7ff12ce4e49c032eff2a5dd6867133f9.png' target="_blank">
+        <a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/" target="_blank"><img src='koding.png' height="150px" width="250px"></a>
+        <br>
+        <a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/" target="_blank">英文詞典</a>
+        <hr>
+        <h3>ol</h3>
+        <ol>
+            <li id='a1'>a1</li>
+            <li class='a23'>a2</li>
+            <li class='a23 bold'>a3</li>
+            <li class='bold'>a4</li>
+            <li>a5</li>
+        </ol>
+        <h3>ul</h3>
+        <ul>
+            <li>b1</li>
+            <li>b2</li>
+            <li>b3</li>
+            <li>b4</li>
+            <li>b5</li>
+        </ul>
+        <table>
+            <tr>
+                <th>t1</th>
+                <th>t2</th>
+                <th>t3</th>
+            </tr>
+            <tr>
+                <th><a href="https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/" target="_blank"><img src='koding.png' width="50px"></a></th>
+                <th>t4</th>
+                <th>t5</th>
+            </tr>
+            <tr>
+                <th>t6</th>
+                <th>t7</th>
+                <th>t8</th>
+            </tr>
+        </table>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/T1ET3uErbFI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <script src="test1.js" type="text/javascript"></script>
+        <script>
+            // $('#b1').click(function(){
+            //     // if(!d){
+            //     //     $(".hid").fadeIn();
+            //     //     d = true;
+            //     // }else{
+            //     //     $(".hid").fadeOut();
+            //     //     d = false;
+            //     // }
+            //     $(".hid").slideToggle("slow");
+            // });
+            var d = false;
+            var b = document.getElementById('b1');
+            var h = document.getElementsByClassName('hid');
+            b.addEventListener('click', function(){
+            if(!d){
+                h.fadeIn();
+                d = true;
+            }else{
+                h.fadeOut();
+                d = false;
+            }
+            h.slideToggle("slow");
+        })
+        </script>
+    </body>
+</html>
